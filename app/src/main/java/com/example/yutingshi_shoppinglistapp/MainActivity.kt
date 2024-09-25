@@ -34,7 +34,7 @@ fun ShoppingListApp() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFFFE4E1)) // Pink background
+            .background(Color(0xFFFFE4E1))
             .padding(16.dp)
     ) {
         Text("Shopping List", style = MaterialTheme.typography.headlineMedium)
@@ -68,8 +68,8 @@ fun ShoppingListApp() {
                 }
             },
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFFFFC1E3), // Pink color for the button background
-                contentColor = Color.White         // White text color
+                containerColor = Color(0xFFFFC1E3),
+                contentColor = Color.White
             ),
             modifier = Modifier.align(Alignment.End)
         ) {
